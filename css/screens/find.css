@@ -1,0 +1,148 @@
+.find-main {
+  padding: 0 var(--padding-main-left-right);
+  height: 100%;
+}
+
+.find__function {
+  height: 10%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.find__function .item {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: var(--font-guide-title);
+}
+.find__function .item span {
+  text-align: center;
+}
+
+.find__function .item i {
+  font-size: var(--font-icon-find);
+}
+
+.find__recommended-friends {
+  height: 30%;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 16px;
+}
+
+.find__recommended-friends--title {
+  margin-top: 12px;
+}
+
+.find__recommended-friends--contents {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find__open-chat {
+  /* overflow: scroll; */
+}
+
+.find__open-chat--title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.find__open-chat__column {
+  display: flex;
+  justify-content: space-between;
+  /* align-self: i; */
+}
+
+.find__open-chat__column .column__row1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.find__open-chat__column .column__row1 span:first-child {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.find__open-chat__column .column__row1 div {
+  display: flex;
+  align-items: center;
+}
+
+.find__open-chat__column .column__row1 div span:last-of-type {
+  margin-left: 9px;
+  padding-left: 9px;
+  border-left: 1px solid white;
+  color: rgb(144, 52, 206);
+}
+
+.opener-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 7px;
+  margin-right: 5px;
+}
+
+.find__open-chat__column .column__row2 {
+  position: relative;
+}
+.find__open-chat__column img.open-chat-main-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.column__row--heart-count {
+  position: absolute;
+  padding: 6px 10px;
+  background-color: var(--color-text-content);
+  border-radius: 12px;
+  right: 5px;
+  bottom: 5px;
+}
+
+.column__row--heart-count i {
+  margin-right: 6px;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  16.6% {
+    transform: scale(2);
+    color: red;
+  }
+  33.2% {
+    transform: scale(1);
+  }
+  49.8% {
+    transform: scale(2);
+  }
+  68.4% {
+    transform: scale(1);
+  }
+  89% {
+    transform: scale(2);
+    color: red;
+  }
+  100% {
+    transform: scale(1);
+    color: rgb(245, 245, 245);
+  }
+}
+.column__row--heart-count i:hover {
+  animation: beat 2s ease-in-out;
+}

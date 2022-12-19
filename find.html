@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>find</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar--component">
+      <div class="status__rows">
+        <span>No Service</span><span><i class="fa-solid fa-wifi"></i></span>
+      </div>
+      <div class="status__rows"><span>18:43</span></div>
+      <div class="status__rows">
+        <span>11%</span>
+        <span><i class="fa-solid fa-battery-quarter"></i></span>
+        <span><i class="fa-solid fa-bolt"></i></span>
+      </div>
+    </div>
+    <div class="chat-bg"></div>
+    <div class="screen-header">
+      <div class="header__row1"><span>Find</span></div>
+      <div class="header__row2">
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <a href="settings.html"><i class="fa-solid fa-gear"></i></a>
+      </div>
+    </div>
+    <main class="find-main">
+      <div class="find__function">
+        <div class="item">
+          <span><i class="fas fa-qrcode"></i></span><span>QR Code</span>
+        </div>
+        <div class="item">
+          <span><i class="far fa-address-book"></i></span
+          ><span>Add by Contacts</span>
+        </div>
+        <div class="item">
+          <span> <i class="fas fa-fingerprint"></i></span><span>Add by ID</span>
+        </div>
+        <div class="item">
+          <span><i class="far fa-envelope"></i></span><span>invite</span>
+        </div>
+      </div>
+      <div class="find__recommended-friends">
+        <div class="find__recommended-friends--title">
+          <span>recommended friends</span>
+        </div>
+        <div class="find__recommended-friends--contents">
+          <span> You have no recommended friends. </span>
+        </div>
+      </div>
+
+      <div class="find__open-chat">
+        <div class="find__open-chat--title">
+          <div class="open-chat--title--main">
+            <span>Open Chat</span>
+          </div>
+          <div class="open-chat--title--extra">
+            <span>Go to Openchat Home</span
+            ><span> <i class="fa-solid fa-chevron-right"></i></span>
+          </div>
+        </div>
+        <div class="find__open-chat__column">
+          <div class="column__row1">
+            <span>#BTS</span><span>#BTS#ARMY#FRIENDS</span>
+            <div>
+              <img
+                class="opener-img"
+                src="./img/src-image/chat-profill-image/2.jpg"
+                alt=""
+              /><span>802 members</span><span>Active</span>
+            </div>
+          </div>
+          <div class="column__row2">
+            <img
+              class="open-chat-main-image"
+              src="./img/src-image/chat-profill-image/3.jpg"
+              alt=""
+            />
+            <div class="column__row--heart-count">
+              <i class="fa-solid fa-heart"></i><span>326</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="find__open-chat__column">
+          <div class="column__row"><span></span><span></span><span></span></div>
+          <div class="column__row"><img src="" alt="" /><span></span></div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav-component">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn nav__btn--clicked">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+
+    <div id="portrait">
+      <span>Please turn your phone</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/243f92049e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

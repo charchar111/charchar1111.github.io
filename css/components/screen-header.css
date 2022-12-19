@@ -1,0 +1,26 @@
+.screen-header {
+  margin-top: 60px;
+  padding: 0 var(--padding-main-left-right);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: var(--font-icon-header);
+  color: white;
+  margin-bottom: 16px;
+}
+
+.screen-header .header__row1 span {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+}
+
+.screen-header span,
+.screen-header i:not(:last-of-type) {
+  margin-right: 12px;
+}
+
+.screen-header .header__row2 a {
+  color: white;
+  margin-left: 12px;
+}

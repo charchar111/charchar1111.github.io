@@ -1,0 +1,43 @@
+.friends-profile {
+  margin-top: 20px;
+  padding: 0 var(--padding-main-left-right);
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+.friends-profile_main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.friends-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 17px;
+  margin-right: 16px;
+}
+
+.friends-profile .profile__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  flex: 1;
+}
+
+.friends-profile .profile__name span {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.friends-profile .profile__name div {
+  padding-top: 5px;
+}
+.friends-profile .profile__name div span {
+  font-size: 14px;
+}

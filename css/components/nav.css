@@ -1,0 +1,39 @@
+.nav-component {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 15px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+}
+
+.nav-component ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+}
+
+.nav-component a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.nav-component ul li.nav__btn--clicked a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav-component a[href="chats.html"] {
+  position: relative;
+}
+.nav-component a[href="chats.html"] span {
+  position: absolute;
+  padding: 4px 7px;
+  background-color: black;
+  border-radius: 50%;
+  left: 14px;
+  bottom: 11px;
+  color: white;
+  font-size: 14px;
+}

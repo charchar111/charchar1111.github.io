@@ -1,0 +1,18 @@
+:root {
+  --font-guide: 12px;
+  --font-text-normal: 14px;
+  --font-icon-header: 18px;
+  --font-ipt-label: 10px;
+  --font-guide-title: 16px;
+  --font-icon-find: 30px;
+  --font-button: 14px;
+  --font-ipt-text: 14px;
+  --color-chat-own: rgba(145, 53, 53, 0.5);
+  --button-height: 48px;
+  --height-ipt-text: 40px;
+  --color-ipt-label: rgba(0, 0, 0, 0.5);
+  --color-text-content: rgba(0, 0, 0, 0.4);
+  --color-border: rgba(255, 255, 255, 0.3);
+  --color-btn-text: rgba(0, 0, 0, 0.8);
+  --padding-main-left-right: 20px;
+}

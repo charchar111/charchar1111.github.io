@@ -1,0 +1,196 @@
+@import "reset.css";
+@import "variables.css";
+@import "components/status-bar.css";
+@import "components/profile.css";
+@import "components/nav.css";
+@import "components/screen-header.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/chat.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+@import "components/profile.css";
+@import "components/alt-screen-header.css";
+@import "screens/setting.css";
+@import "components/no-mobile.css";
+html {
+  height: 100%;
+}
+
+body {
+  height: 800px;
+  background-image: linear-gradient(
+    rgba(230, 100, 101, 0.7),
+    rgba(145, 152, 229, 0.7)
+  );
+  background-color: black;
+  color: rgb(245, 245, 245);
+  overflow: hidden;
+}
+#index {
+}
+
+.main--bg-img {
+}
+
+.blank-space--top {
+  height: 10%;
+}
+
+.login-title {
+  background-size: cover;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  /* position: relative; */
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.login-title__box {
+  background-color: rgba(0, 0, 0, 0.4);
+
+  padding: 0 30px;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-title h1 {
+  color: white;
+  text-align: center;
+  font-size: var(--font-guide-title);
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.login-title p {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: var(--font-guide);
+  line-height: 1.8em;
+}
+
+/* .login-title__bg {
+  background-image: url("./../img/src-image/login-title2.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+
+  align-self: stretch;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0;
+} */
+
+.login-form {
+  margin-top: 70px;
+  padding: 0 var(--padding-main-left-right);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+
+.login-form div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.login-form label {
+  font-size: var(--font-ipt-label);
+  color: var(--color-ipt-label);
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.login-form input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  /* border-radius: 10px; */
+  align-self: stretch;
+  height: var(--height-ipt-text);
+  font-size: var(--font-ipt-text);
+  cursor: text;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.3s ease-in-out;
+}
+
+.login-form input:hover {
+  outline: none;
+}
+
+.login-form input:focus-within {
+  outline: none;
+  padding: 5px 0;
+}
+
+.login-buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-main-left-right);
+}
+.login-buttons .login-buttons__btn {
+  border: none;
+  margin-bottom: 8px;
+  height: 40px;
+  font-size: var(--font-button);
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.15s ease-in-out;
+  border-radius: 20px;
+}
+
+.login-buttons .login-buttons__btn:hover {
+  opacity: 1;
+  transition: all 0.15s ease-in-out;
+}
+
+.login-buttons div {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-guide);
+  color: var(--color-text-content);
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.login-buttons div span:first-child {
+  transition: all 0.2s ease-in-out;
+}
+
+.login-buttons div span:first-child:hover {
+  color: black;
+  transition: all 0.2 s ease-in-out;
+}
+
+.login-buttons div span:nth-child(2) {
+  transition: all 0.2s ease-in-out;
+}
+
+.login-buttons div span:nth-child(2):hover {
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.login-buttons .login-buttons__btn a {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  display: block;
+  height: 100%;
+
+  line-height: 35px;
+}
