@@ -18,7 +18,7 @@
   z-index: 1;
 }
 
-#chat-screen .status-bar--component {
+#chat-screen .status-bar {
   background-color: var(--color-text-content);
   z-index: 2;
 }

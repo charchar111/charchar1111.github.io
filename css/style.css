@@ -13,7 +13,7 @@
 @import "components/profile.css";
 @import "components/alt-screen-header.css";
 @import "screens/setting.css";
-@import "components/no-mobile.css";
+/* @import "components/no-mobile.css"; */
 html {
   height: 100%;
 }
