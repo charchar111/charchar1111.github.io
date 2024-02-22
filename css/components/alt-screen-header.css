@@ -1,4 +1,6 @@
 .alt-header {
+  margin: 0 auto;
+  max-width: 800px;
   display: flex;
 
   justify-content: center;

@@ -19,6 +19,8 @@ html {
 }
 
 body {
+  margin: 0 auto;
+  max-width: 800px;
   height: 800px;
   background-image: linear-gradient(
     rgba(230, 100, 101, 0.7),
@@ -78,7 +80,7 @@ body {
 }
 
 /* .login-title__bg {
-  background-image: url("./../img/src-image/login-title2.jpg");
+  background-image: url("./../public/image/login-title2.jpg");
   background-position: center center;
   background-size: 100% 100%;
 
