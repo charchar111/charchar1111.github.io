@@ -1,4 +1,6 @@
-.status-bar {
+.statusbar {
+  margin: 0 auto;
+  max-width: 800px;
   width: 100%;
   padding: 5px 0;
   box-sizing: border-box;
@@ -14,29 +16,29 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.status__rows {
+.statusbar__rows {
   width: 33.3%;
   box-sizing: border-box;
 }
 
-.status__rows:nth-child(2) {
+.statusbar__rows:nth-child(2) {
   text-align: center;
   letter-spacing: 0px;
 }
 
-.status__rows span {
+.statusbar__rows span {
   margin: 0 6px;
 }
-.status__rows:last-child {
+.statusbar__rows:last-child {
   text-align: end;
 }
 
-.status__rows:last-child span:not(:last-child) {
+.statusbar__rows:last-child span:not(:last-child) {
   margin: 0;
   margin-right: 4px;
 }
 
-.status__rows:last-child span:last-child {
+.statusbar__rows:last-child span:last-child {
   margin: 0;
   margin-right: 6px;
 }
