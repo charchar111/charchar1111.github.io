@@ -6,4 +6,4 @@
 
 ## link
 
-https://charchar111.github.io/kakao-talk-clone-html-css-practice-/
+[https://charchar111.github.io/kakao-talk-clone-html-css-practice-/](https://charchar111.github.io/kakao-talk-clone_html-css/)https://charchar111.github.io/kakao-talk-clone_html-css/
