@@ -46,13 +46,13 @@
 이를 위해서 BEM의 수정자에 따라 새로운 속성을 추가하는 방식을 사용했다.
 
 ex)
-`
+
+```html
 <div class="page">
     <div class="nomal-component"></div>
    div class="nomal-component nomal-component--custom1"></div>
 </div>
-
-`
+```
 
 - 위 nomal-component는 nomal-component--custom1으로 새로운 속성을 추가했다.
 
