@@ -32,9 +32,13 @@
 - CSS3
 
 ## 세부 사항
-### 컴포넌트 디자인
+
 <details>
-<summary> 중제목 </summary>
+<summary> 
+    
+<h5>컴포넌트 디자인</h5>
+
+</summary>
 #### 소제목
   
 #### 소제목
